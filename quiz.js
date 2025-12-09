@@ -10,11 +10,10 @@ function checkAnswer () {
         return; 
     }
 
+   if(userAnswer === correctAnswer){
 
-     const userAnswerValue = userAnswer.value
-if(userAnswer === correctAnswer){
-}
-
+   }
+   
      if(userAnswer.value === correctAnswer){
         feedback.textContent="Correct! Well done.";
     } else{
