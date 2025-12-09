@@ -9,7 +9,7 @@ function checkAnswer () {
         feedback.textContent="Please select an answer before submitting !";
         return;  
 
-    } if(userAnswer === correctAnswer){
+    } if(userAnswer.value === correctAnswer){
         feedback.textContent="Correct! Well done.";
     } else{
         feedback.textContent="That's incorrect. Try again!";
