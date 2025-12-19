@@ -11,7 +11,9 @@ function checkAnswer() {
     }
 
     if(userAnswer === correctAnswer){
+
     }
+    
      if(userAnswer.value === correctAnswer){
         feedback.textContent = "Correct! Well done.";
     } else{
