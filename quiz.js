@@ -5,14 +5,14 @@ function checkAnswer() {
 
     const feedback = document.getElementById('feedback');
 
-    if(!userAnswer){
+    if (!userAnswer){
         feedback.textContent="Please select an answer before submitting!";
         return; 
     }
 
-     if(userAnswer === correctAnswer){
+     if (userAnswer === correctAnswer){
         feedback.textContent = "Correct! Well done.";
-    } else{
+    } else {
         feedback.textContent = "That's incorrect. Try again!";
     }
 }
